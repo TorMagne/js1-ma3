@@ -1,0 +1,31 @@
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  background-color: rgb(226, 225, 225);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.api-call {
+  padding-top: 1rem;
+}
+
+.api-call h2 {
+  font-size: 1.6rem;
+}
+
+.api-call p {
+  font-size: 1.1rem;
+}
+
+.error {
+  border: 1px solid darkred;
+  padding: 1rem;
+  color: darkred;
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.loader .loader-text {
+  font-size: 2rem;
+}
