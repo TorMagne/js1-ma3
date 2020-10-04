@@ -27,7 +27,6 @@ async function getGames() {
       gameInfo.innerHTML += `<p>Tags: ${gameFacts[i].tags.length}</p>`;
     }
   } catch (error) {
-    console.log('An error have occured');
     gameInfo.innerHTML = displayError('An error occurred when trying to call the API');
   }
 }
