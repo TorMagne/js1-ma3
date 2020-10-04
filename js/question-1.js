@@ -9,5 +9,3 @@
 division = (a, b) => a % b;
 
 const result = division(5, 5);
-
-console.log(result);
